@@ -471,3 +471,35 @@ img{
   object-fit:contain;
   display:block;
 }
+
+
+/* ===== FIX DEFINITIVO DE COMILLA FINAL ===== */
+.numi-quote{
+  position:relative;
+  padding:30px 70px 34px 64px;
+}
+.numi-quote .quote-open,
+.numi-quote .quote-close{
+  position:absolute;
+  display:block;
+  font-family:"Fraunces",serif;
+  font-weight:600;
+  color:#b99ad9;
+  line-height:.8;
+  z-index:2;
+}
+.numi-quote .quote-open{
+  left:18px;
+  top:18px;
+  font-size:4rem;
+}
+.numi-quote .quote-close{
+  right:18px;
+  bottom:12px;
+  font-size:4rem;
+}
+.numi-quote p{
+  margin:0;
+  position:relative;
+  z-index:1;
+}
