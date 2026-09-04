@@ -299,3 +299,127 @@ button,a,audio,video{font:inherit}
   .hero-facts span{flex:1 1 100%}
   .footer-links{flex-wrap:wrap}
 }
+
+
+/* ===== AJUSTES FINALES V3 ===== */
+
+/* Evita que las imágenes se vean estiradas o borrosas por exceso de escalado */
+img{
+  image-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+}
+.hero-product,
+.poster-card img,
+.click-poster img,
+.brand-banner img{
+  object-fit:contain;
+  height:auto;
+}
+
+/* La imagen central antigua se mantiene protagonista sin deformarla */
+.hero-product{
+  width:min(100%,640px);
+  max-height:none;
+  background:#f3ebff;
+}
+
+/* Datos de la problemática */
+.evidence-strip{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+  margin:28px 0 10px;
+}
+.evidence-strip article{
+  min-height:190px;
+  padding:22px 18px;
+  border-radius:24px;
+  background:
+    radial-gradient(circle at 80% 10%,rgba(183,155,214,.20),transparent 90px),
+    linear-gradient(180deg,#fff,#faf5ff);
+  border:1px solid rgba(126,98,173,.14);
+  box-shadow:0 12px 30px rgba(67,48,101,.07);
+  transition:.28s ease;
+}
+.evidence-strip article:hover{
+  transform:translateY(-6px);
+  box-shadow:0 20px 42px rgba(67,48,101,.12);
+}
+.evidence-strip strong{
+  display:block;
+  font-family:"Fraunces",serif;
+  font-size:2.65rem;
+  line-height:1;
+  color:var(--purple-deep);
+  margin-bottom:12px;
+}
+.evidence-strip span{
+  display:block;
+  color:var(--ink-soft);
+  line-height:1.55;
+  font-size:.9rem;
+}
+.evidence-source{
+  margin:8px 4px 28px;
+  font-size:.78rem;
+  color:#7c8398;
+  line-height:1.55;
+}
+
+/* NUMIS: imagen clara a la izquierda + información alineada a la derecha */
+.numi-showcase-refined{
+  grid-template-columns:1.12fr .88fr;
+  align-items:start;
+}
+.numi-main-photo{
+  align-self:start;
+  padding:12px;
+}
+.numi-main-photo img{
+  width:100%;
+  max-width:736px;
+  margin:0 auto;
+}
+.numi-label{
+  display:inline-block;
+  width:max-content;
+  max-width:100%;
+  padding:8px 13px;
+  margin-bottom:4px;
+  border-radius:999px;
+  background:var(--lilac-soft);
+  color:var(--purple-deep);
+  font-size:.72rem;
+  letter-spacing:.12em;
+  font-weight:800;
+}
+.numi-quote{
+  position:relative;
+  padding:22px 22px 22px 54px;
+  border-radius:24px;
+  background:linear-gradient(135deg,#fff9ef,#f3ebfb);
+  border:1px solid rgba(126,98,173,.13);
+}
+.numi-quote>span{
+  position:absolute;
+  left:18px;
+  top:8px;
+  font-family:"Fraunces",serif;
+  font-size:3.6rem;
+  color:var(--lilac);
+  line-height:1;
+}
+.numi-quote p{
+  margin:0;
+  font-family:"Fraunces",serif;
+  font-size:1.12rem;
+  line-height:1.55;
+  color:var(--ink);
+}
+
+/* Mejor lectura en pantallas medianas */
+@media (max-width:980px){
+  .evidence-strip{grid-template-columns:1fr}
+  .evidence-strip article{min-height:auto}
+  .numi-showcase-refined{grid-template-columns:1fr}
+}
