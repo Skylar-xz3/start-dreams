@@ -423,3 +423,51 @@ img{
   .evidence-strip article{min-height:auto}
   .numi-showcase-refined{grid-template-columns:1fr}
 }
+
+
+/* ===== ÚLTIMOS AJUSTES DE CIERRE ===== */
+
+/* El hero queda más limpio sin la etiqueta superior */
+.hero-copy .mini-logo{
+  margin-bottom:28px;
+}
+
+/* Frase Numi: comillas de apertura y cierre completas */
+.numi-quote{
+  padding:30px 58px 30px 64px;
+  overflow:hidden;
+}
+.numi-quote .quote-open,
+.numi-quote .quote-close{
+  position:absolute;
+  font-family:"Fraunces",serif;
+  color:#b99ad9;
+  line-height:1;
+  font-weight:600;
+  pointer-events:none;
+}
+.numi-quote .quote-open{
+  left:18px;
+  top:12px;
+  font-size:4rem;
+}
+.numi-quote .quote-close{
+  right:20px;
+  bottom:-2px;
+  font-size:4rem;
+}
+.numi-quote p{
+  position:relative;
+  z-index:1;
+}
+
+/* Nuevo banner: mantener proporción y máxima nitidez posible */
+.brand-banner{
+  background:#fff;
+}
+.brand-banner img{
+  width:100%;
+  height:auto;
+  object-fit:contain;
+  display:block;
+}
