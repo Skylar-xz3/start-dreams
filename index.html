@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Start Dreams - Numis, compañeros sensoriales para crear una rutina de descanso más tranquila." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Start Dreams - Numis, compañeros sensoriales con lavanda para acompañar rutinas de calma y descanso.">
   <title>Start Dreams | Numis</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="stars stars-a"></div>
-  <div class="stars stars-b"></div>
+  <div class="lavender-haze haze-1"></div>
+  <div class="lavender-haze haze-2"></div>
+  <div class="grain"></div>
 
-  <audio class="music-player" controls loop preload="metadata">
-    <source src="musica-relajante.mp3" type="audio/mpeg">
-    Tu navegador no permite reproducir audio.
-  </audio>
-
-  <header class="nav-shell">
-    <a class="brand" href="#inicio">
-      <span class="brand-mark">✦</span>
-      <span>Start Dreams</span>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span class="brand-star">✦</span>
+      <div class="brand-words">
+        <strong>Start</strong>
+        <span>Dreams</span>
+      </div>
     </a>
 
-    <nav>
+    <nav class="menu">
       <a href="#numis">Numis</a>
-      <a href="#beneficios">Beneficios</a>
+      <a href="#lavanda">Lavanda</a>
       <a href="#rutinas">Rutinas</a>
-      <a href="#nfc">NFC</a>
       <a href="#playlist">Playlist</a>
+      <a href="#pedido">Pedidos</a>
     </nav>
 
-    <a class="nav-cta" target="_blank" rel="noopener"
-       href="https://wa.me/51919672354?text=Hola%20Start%20Dreams%2C%20quiero%20informaci%C3%B3n%20sobre%20los%20Numis.">
+    <a class="nav-cta"
+       href="https://wa.me/51919672354?text=Hola%20Start%20Dreams%2C%20quiero%20informaci%C3%B3n%20sobre%20los%20Numis."
+       target="_blank" rel="noopener">
       Pedir un Numi
     </a>
   </header>
@@ -44,251 +44,313 @@
   <main>
     <section class="hero" id="inicio">
       <div class="hero-copy">
-        <p class="eyebrow">START DREAMS PRESENTA</p>
-        <h1>Conoce a los <span>Numis</span></h1>
-        <p class="hero-text">
-          Un compañero sensorial pensado para acompañar momentos de calma,
-          descanso y bienestar con textura suave, aroma a lavanda y conexión NFC.
+        <span class="overline">START DREAMS PRESENTA</span>
+
+        <h1>
+          Descansar también
+          puede sentirse
+          <em>bonito.</em>
+        </h1>
+
+        <p class="hero-subtitle">
+          Los <strong>Numis</strong> son compañeros sensoriales creados para acompañar
+          momentos de calma con una textura suave y un saquito aromático removible
+          con <strong>lavanda</strong>.
         </p>
 
-        <div class="hero-tags">
-          <span>🌿 Lavanda</span>
-          <span>🧸 Textura suave</span>
-          <span>📱 NFC</span>
-          <span>🌙 Rutina nocturna</span>
+        <div class="hero-actions">
+          <a href="#numis" class="btn primary">Conocer a los Numis</a>
+          <a href="#lavanda" class="btn ghost">Descubrir la lavanda</a>
         </div>
 
-        <div class="hero-actions">
-          <a class="btn btn-main" href="#numis">Descubrir los Numis</a>
-          <a class="btn btn-soft" target="_blank" rel="noopener"
-             href="https://wa.me/51919672354?text=Hola%20Start%20Dreams%2C%20quiero%20pedir%20un%20Numi.">
-            WhatsApp 919 672 354
-          </a>
+        <div class="hero-details">
+          <div><span>🌿</span><strong>Lavanda</strong><small>Aroma suave</small></div>
+          <div><span>🧸</span><strong>Textura</strong><small>Suave y acogedora</small></div>
+          <div><span>🌙</span><strong>Rutina</strong><small>Momento de calma</small></div>
         </div>
       </div>
 
-      <div class="hero-art">
-        <div class="halo"></div>
+      <div class="hero-visual">
+        <div class="lavender-arch"></div>
         <img src="https://i.ibb.co/bRN6CCVf/image.png" alt="Start Dreams y Numi">
+        <div class="floating-pill p1">Lavanda natural ✦</div>
+        <div class="floating-pill p2">Saquito removible 🌿</div>
       </div>
     </section>
 
-    <section class="statement">
-      <span>☾</span>
-      <p>Más que un peluche: una experiencia pensada para convertir la rutina de descanso en un momento especial.</p>
+    <section class="scent-strip">
       <span>✦</span>
+      <p>Un aroma suave, una textura acogedora y una rutina hecha para bajar el ritmo.</p>
+      <span>☾</span>
     </section>
 
     <section class="section" id="numis">
-      <div class="section-head">
-        <p class="eyebrow">NUESTRO PRODUCTO</p>
-        <h2>Los Numis</h2>
+      <div class="section-head center">
+        <span class="overline">NUESTRO PRODUCTO</span>
+        <h2>Conoce a los <em>Numis</em></h2>
         <p>
-          Los Numis son los compañeros sensoriales de Start Dreams. Integran un
-          saquito aromático removible con lavanda y un chip NFC que conecta con
-          nuestra experiencia digital.
+          Los Numis son los compañeros sensoriales de Start Dreams.
+          Están pensados para acompañar el momento previo al descanso de una forma
+          más cálida, suave y especial.
         </p>
       </div>
 
-      <div class="product-layout">
-        <div class="product-card">
-          <div class="product-badge">NUMI</div>
+      <div class="numi-showcase">
+        <div class="numi-photo">
+          <div class="badge">NUMI</div>
           <img src="https://i.ibb.co/JRLR28z9/14-removebg-preview.png" alt="Numi Start Dreams">
         </div>
 
-        <div class="feature-stack">
+        <div class="numi-copy">
           <article>
-            <div class="feature-icon">🌿</div>
+            <div class="soft-icon">🌿</div>
             <div>
-              <h3>Aroma a lavanda</h3>
-              <p>Saquito removible pensado para acompañar una rutina relajante.</p>
+              <span class="small-title">AROMA</span>
+              <h3>Lavanda suave</h3>
+              <p>El aroma se encuentra en un saquito removible que acompaña la rutina sin impregnar todo el peluche.</p>
             </div>
           </article>
+
           <article>
-            <div class="feature-icon">💜</div>
+            <div class="soft-icon">💜</div>
             <div>
-              <h3>Compañía sensorial</h3>
-              <p>Textura suave y diseño amigable para crear una sensación de cercanía.</p>
+              <span class="small-title">SENSACIÓN</span>
+              <h3>Textura acogedora</h3>
+              <p>Su diseño busca que el Numi se sienta agradable al tacto y fácil de integrar a un momento de descanso.</p>
             </div>
           </article>
+
           <article>
-            <div class="feature-icon">📱</div>
+            <div class="soft-icon">🌙</div>
             <div>
-              <h3>Chip NFC</h3>
-              <p>Acerca un celular compatible y entra directo a nuestra web.</p>
+              <span class="small-title">RUTINA</span>
+              <h3>Un pequeño ritual</h3>
+              <p>Puede formar parte de una secuencia simple: bajar luces, respirar lento, escuchar música y descansar.</p>
             </div>
           </article>
+
           <article>
-            <div class="feature-icon">♻️</div>
+            <div class="soft-icon">♻️</div>
             <div>
-              <h3>Sistema reutilizable</h3>
-              <p>El saquito puede retirarse y renovarse cuando sea necesario.</p>
+              <span class="small-title">DISEÑO</span>
+              <h3>Saquito removible</h3>
+              <p>El saquito se puede retirar para conservar mejor el peluche y renovar la experiencia aromática cuando sea necesario.</p>
             </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section benefits" id="beneficios">
-      <div class="section-head center">
-        <p class="eyebrow">EXPERIENCIA START DREAMS</p>
-        <h2>Calma, rutina y conexión</h2>
+    <section class="lavender-section" id="lavanda">
+      <div class="lavender-copy">
+        <span class="overline light">EL CORAZÓN DE START DREAMS</span>
+        <h2>La lavanda es parte de la experiencia</h2>
+        <p>
+          Elegimos la lavanda por su aroma delicado y porque combina perfectamente
+          con la idea de una noche más tranquila. En los Numis no está dentro de todo
+          el peluche: va en un saquito removible para que la experiencia sea más práctica.
+        </p>
+
+        <div class="lavender-points">
+          <div><span>✦</span><p><strong>Aroma delicado</strong><br>Suave y fácil de integrar a la rutina.</p></div>
+          <div><span>✦</span><p><strong>Removible</strong><br>El saquito puede retirarse del peluche.</p></div>
+          <div><span>✦</span><p><strong>Renovable</strong><br>Puede reemplazarse cuando el aroma disminuya.</p></div>
+        </div>
       </div>
 
-      <div class="benefit-grid">
-        <article class="benefit-card lavender">
-          <span>01</span>
-          <h3>Relajación</h3>
-          <p>Acompaña el momento previo al descanso con un aroma suave y una rutina más tranquila.</p>
+      <div class="lavender-art">
+        <div class="lavender-card">
+          <div class="sprig">✦</div>
+          <div class="lavender-bunch">🪻</div>
+          <h3>Lavanda</h3>
+          <p>Suave · Floral · Relajante</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ritual-section">
+      <div class="section-head center">
+        <span class="overline">UNA EXPERIENCIA SENCILLA</span>
+        <h2>Cómo usar tu Numi</h2>
+        <p>Una secuencia breve para convertir la noche en un momento más tranquilo.</p>
+      </div>
+
+      <div class="ritual-steps">
+        <article>
+          <span class="number">01</span>
+          <div class="ritual-icon">☁</div>
+          <h3>Baja el ritmo</h3>
+          <p>Reduce estímulos, baja la luz y deja las pantallas a un lado.</p>
         </article>
-        <article class="benefit-card mint">
-          <span>02</span>
-          <h3>Rutina</h3>
-          <p>Ayuda a convertir pequeñas acciones repetidas en señales de que el día está terminando.</p>
+
+        <article>
+          <span class="number">02</span>
+          <div class="ritual-icon">🧸</div>
+          <h3>Abraza tu Numi</h3>
+          <p>Integra el peluche como una señal de que llegó el momento de descansar.</p>
         </article>
-        <article class="benefit-card blue">
-          <span>03</span>
-          <h3>Conexión digital</h3>
-          <p>El chip NFC lleva a guías, rutinas, playlist y al canal de compra.</p>
+
+        <article>
+          <span class="number">03</span>
+          <div class="ritual-icon">🌿</div>
+          <h3>Disfruta la lavanda</h3>
+          <p>Deja que el aroma suave acompañe el momento mientras respiras con calma.</p>
         </article>
-        <article class="benefit-card cream">
-          <span>04</span>
-          <h3>Regalo especial</h3>
-          <p>Una presentación visual tierna, cercana y pensada para regalar bienestar.</p>
+
+        <article>
+          <span class="number">04</span>
+          <div class="ritual-icon">☾</div>
+          <h3>Cierra el día</h3>
+          <p>Escucha música tranquila, baja el ritmo y prepárate para descansar.</p>
         </article>
       </div>
     </section>
 
-    <section class="section routine-zone" id="rutinas">
+    <section class="section routine-section" id="rutinas">
       <div class="section-head center">
-        <p class="eyebrow">RUTINAS DE BIENESTAR</p>
-        <h2>Elige cómo cerrar tu día</h2>
-        <p>Tres rutinas simples para acompañar el momento de descanso.</p>
+        <span class="overline">RUTINAS DE BIENESTAR</span>
+        <h2>Elige tu forma de cerrar el día</h2>
       </div>
 
       <div class="routine-grid">
         <article class="routine-card">
-          <div class="routine-top"><strong>5 min</strong><span>🌙</span></div>
+          <div class="routine-top"><span>5 min</span><span>☾</span></div>
           <h3>Luna suave</h3>
           <ol>
             <li>Aleja el celular.</li>
             <li>Abraza tu Numi.</li>
-            <li>Haz 5 respiraciones lentas.</li>
-            <li>Piensa en algo bueno del día.</li>
+            <li>Haz cinco respiraciones lentas.</li>
+            <li>Piensa en algo bonito del día.</li>
             <li>Cierra los ojos y descansa.</li>
           </ol>
         </article>
 
         <article class="routine-card featured">
-          <div class="routine-top"><strong>8 min</strong><span>🌿</span></div>
-          <h3>Mente tranquila</h3>
+          <div class="routine-top"><span>8 min</span><span>🌿</span></div>
+          <h3>Lavanda y calma</h3>
           <ol>
             <li>Baja la luz de la habitación.</li>
-            <li>Coloca música suave.</li>
-            <li>Relaja hombros y cuello.</li>
+            <li>Coloca tu Numi cerca.</li>
+            <li>Disfruta el aroma de lavanda.</li>
             <li>Respira lentamente.</li>
-            <li>Deja que el cuerpo baje el ritmo.</li>
+            <li>Escucha la playlist Start Dreams.</li>
           </ol>
         </article>
 
         <article class="routine-card">
-          <div class="routine-top"><strong>10 min</strong><span>✨</span></div>
+          <div class="routine-top"><span>10 min</span><span>✦</span></div>
           <h3>Cierre del día</h3>
           <ol>
             <li>Anota lo que quedó pendiente.</li>
-            <li>Elige lo de mañana.</li>
-            <li>Guarda cuadernos y materiales.</li>
-            <li>Abraza tu Numi y escucha la playlist.</li>
-            <li>Evita volver a revisar tareas.</li>
+            <li>Guarda tus materiales.</li>
+            <li>Baja las luces.</li>
+            <li>Abraza tu Numi.</li>
+            <li>Deja que el día termine.</li>
           </ol>
         </article>
       </div>
     </section>
 
-    <section class="section nfc-zone" id="nfc">
-      <div class="nfc-card">
-        <div>
-          <p class="eyebrow light">CHIP NFC</p>
-          <h2>Acerca. Conecta. Descubre.</h2>
-          <p>
-            El chip NFC integrado en el Numi permite ingresar a esta página
-            acercando un celular compatible.
-          </p>
+    <section class="playlist-section" id="playlist">
+      <div class="playlist-copy">
+        <span class="overline light">PLAYLIST START DREAMS</span>
+        <h2>Música suave para una noche tranquila</h2>
+        <p>
+          Puedes acompañar tu rutina con sonidos relajantes mientras lees,
+          respiras o simplemente te preparas para descansar.
+        </p>
 
-          <div class="nfc-list">
-            <div><span>📖</span><p><strong>Guías</strong><br>Ideas sencillas para hábitos de descanso.</p></div>
-            <div><span>🌙</span><p><strong>Rutinas</strong><br>Pasos simples para terminar el día.</p></div>
-            <div><span>🎵</span><p><strong>Playlist</strong><br>Música para acompañar el momento.</p></div>
-            <div><span>🛍️</span><p><strong>Compra</strong><br>Acceso directo al pedido por WhatsApp.</p></div>
+        <div class="local-player">
+          <div class="music-note">♫</div>
+          <div class="player-text">
+            <strong>Música relajante</strong>
+            <small>Tu audio de Start Dreams</small>
           </div>
-        </div>
 
-        <div class="phone-demo">
-          <div class="phone-notch"></div>
-          <div class="phone-screen">
-            <span class="mini-logo">Start<br>Dreams</span>
-            <div class="touch-ring">NFC</div>
-            <p>Acerca tu celular al Numi</p>
-          </div>
+          <audio controls loop preload="metadata">
+            <source src="musica-relajante.mp3" type="audio/mpeg">
+            Tu navegador no permite reproducir audio.
+          </audio>
         </div>
+      </div>
+
+      <div class="spotify-wrap">
+        <iframe
+          src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4sWSpwq3LiO?utm_source=generator"
+          width="100%"
+          height="352"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy">
+        </iframe>
       </div>
     </section>
 
-    <section class="section playlist-zone" id="playlist">
-      <div class="playlist-copy">
-        <p class="eyebrow light">PLAYLIST START DREAMS</p>
-        <h2>Música para bajar el ritmo</h2>
+    <section class="digital-note">
+      <div>
+        <span class="overline">EXPERIENCIA DIGITAL</span>
+        <h2>Todo en un solo lugar</h2>
         <p>
-          Una selección pensada para acompañar la lectura, la respiración
-          tranquila y el momento previo al descanso.
+          Desde la web de Start Dreams puedes acceder a las rutinas, la playlist,
+          información del producto y el canal de compra. El Numi también puede incluir
+          acceso directo mediante NFC, pero la experiencia principal sigue siendo la calma.
         </p>
       </div>
-
-      <iframe
-        src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4sWSpwq3LiO?utm_source=generator"
-        width="100%"
-        height="352"
-        frameborder="0"
-        allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy">
-      </iframe>
+      <div class="mini-grid">
+        <span>📖 Guías</span>
+        <span>🌙 Rutinas</span>
+        <span>🎵 Playlist</span>
+        <span>🛍️ Pedidos</span>
+      </div>
     </section>
 
-    <section class="section order-zone" id="pedidos">
+    <section class="order-section" id="pedido">
       <div class="order-card">
-        <div>
-          <p class="eyebrow light">¿QUIERES TU NUMI?</p>
-          <h2>Haz tu pedido por WhatsApp</h2>
-          <p>Consulta disponibilidad, presentación y detalles del producto.</p>
-          <div class="phone-number">919 672 354</div>
-          <a class="btn btn-white" target="_blank" rel="noopener"
-             href="https://wa.me/51919672354?text=Hola%20Start%20Dreams%2C%20quiero%20pedir%20un%20Numi.">
-            Quiero pedir un Numi
+        <div class="order-copy">
+          <span class="overline light">¿QUIERES TU NUMI?</span>
+          <h2>Un detalle suave, bonito y especial</h2>
+          <p>
+            Escríbenos para consultar disponibilidad, presentación y detalles del producto.
+          </p>
+          <div class="phone">919 672 354</div>
+          <a class="btn white"
+             href="https://wa.me/51919672354?text=Hola%20Start%20Dreams%20%F0%9F%92%9C%20Quiero%20pedir%20un%20Numi."
+             target="_blank" rel="noopener">
+            Pedir por WhatsApp
           </a>
         </div>
-        <div class="order-moon">☾</div>
+
+        <div class="order-moon">
+          <span>☾</span>
+          <small>Start Dreams</small>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div>
-      <strong>Start Dreams</strong>
-      <p>Numis · Compañeros sensoriales para descansar mejor.</p>
+    <div class="footer-brand">
+      <strong>Start <span>Dreams</span></strong>
+      <p>Numis · Compañeros sensoriales para descansar mejor</p>
     </div>
+
     <div class="footer-links">
       <a href="#numis">Numis</a>
+      <a href="#lavanda">Lavanda</a>
       <a href="#rutinas">Rutinas</a>
       <a href="#playlist">Playlist</a>
-      <a href="#pedidos">Pedidos</a>
     </div>
   </footer>
 
   <a class="whatsapp-float"
      href="https://wa.me/51919672354?text=Hola%20Start%20Dreams%2C%20quiero%20informaci%C3%B3n%20sobre%20los%20Numis."
-     target="_blank" rel="noopener">
-    💬 <span>Pedidos</span>
+     target="_blank"
+     rel="noopener"
+     aria-label="Pedidos por WhatsApp">
+    <span>💬</span>
+    <div><small>Pedidos</small><strong>919 672 354</strong></div>
   </a>
 </body>
 </html>
+
