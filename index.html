@@ -4,115 +4,246 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Start Dreams presenta Numis: compañeros sensoriales con lavanda para acompañar rutinas de descanso y bienestar.">
+
   <title>Start Dreams | Numis</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Nunito+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 
-  <!-- Icono StartDreams en la pestaña del navegador -->
+  <!-- Icono de la pestaña -->
   <link rel="icon" type="image/png" href="https://plain-enam-prod-public.komododecks.com/202609/04/6raAbiQ7PBieGuxdibeU/image.png">
   <link rel="shortcut icon" href="https://plain-enam-prod-public.komododecks.com/202609/04/6raAbiQ7PBieGuxdibeU/image.png">
   <link rel="apple-touch-icon" href="https://plain-enam-prod-public.komododecks.com/202609/04/6raAbiQ7PBieGuxdibeU/image.png">
-
 </head>
 
 <body>
+
   <div class="page-noise"></div>
   <div class="orb orb-1"></div>
   <div class="orb orb-2"></div>
   <div class="orb orb-3"></div>
 
+  <!-- =========================
+       HEADER
+       ========================= -->
+
   <header class="site-header">
+
     <a class="brand" href="#inicio" aria-label="Inicio Start Dreams">
-      <img src="https://i.ibb.co/9H37MHrV/f2eb44ec-25fc-4fda-8fec-3febfeba10ba.png" alt="Logo Start Dreams">
+      <img
+        src="https://i.ibb.co/9H37MHrV/f2eb44ec-25fc-4fda-8fec-3febfeba10ba.png"
+        alt="Logo Start Dreams">
     </a>
 
-    <nav class="nav">
+    <nav class="nav" id="mainNav">
       <a href="#nosotros">Start Dreams</a>
       <a href="#numis">Numis</a>
       <a href="#lavanda">Lavanda</a>
       <a href="#rutinas">Rutinas</a>
       <a href="#playlist">Playlist</a>
+      <a href="#redes">Redes</a>
       <a href="#pedidos">Pedidos</a>
     </nav>
 
-    <a class="header-cta" href="https://wa.me/51919672354?text=Hola%20Start%20Dreams%2C%20quiero%20informaci%C3%B3n%20sobre%20los%20Numis." target="_blank" rel="noopener">
-      Pedir un Numi
-    </a>
+    <div class="header-actions">
+
+      <!-- MODO CLARO / OSCURO -->
+      <button
+        class="theme-toggle"
+        id="themeToggle"
+        type="button"
+        aria-label="Cambiar entre modo claro y oscuro"
+        title="Cambiar apariencia">
+        <span class="theme-sun">☀</span>
+        <span class="theme-moon">☾</span>
+      </button>
+
+      <!-- MENÚ CELULAR -->
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Abrir menú"
+        aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <a
+        class="header-cta"
+        href="https://wa.me/51919672354?text=Hola%20Start%20Dreams%2C%20quiero%20informaci%C3%B3n%20sobre%20los%20Numis."
+        target="_blank"
+        rel="noopener">
+        Pedir un Numi
+      </a>
+
+    </div>
+
   </header>
 
+
   <main>
-    <!-- HERO -->
+
+    <!-- =========================
+         HERO
+         ========================= -->
+
     <section class="hero" id="inicio">
+
       <div class="hero-copy">
+
         <div class="mini-logo">
-          <img src="https://i.ibb.co/9H37MHrV/f2eb44ec-25fc-4fda-8fec-3febfeba10ba.png" alt="">
+          <img
+            src="https://i.ibb.co/9H37MHrV/f2eb44ec-25fc-4fda-8fec-3febfeba10ba.png"
+            alt="">
           <span>Start Dreams</span>
         </div>
 
-        
-        <h1>Haz de la noche un momento <em>más suave.</em></h1>
+        <h1>
+          Haz de la noche un momento
+          <em>más suave.</em>
+        </h1>
+
         <p>
           Conoce a los <strong>Numis</strong>, nuestros compañeros sensoriales:
-          suaves, cercanos y acompañados de un saquito aromático removible con lavanda.
+          suaves, cercanos y acompañados de un saquito aromático removible
+          con lavanda.
         </p>
 
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#numis">Conocer a los Numis</a>
-          <a class="btn btn-ghost" href="#lavanda">Descubrir la lavanda</a>
+
+          <a class="btn btn-primary" href="#numis">
+            Conocer a los Numis
+          </a>
+
+          <a class="btn btn-ghost" href="#lavanda">
+            Descubrir la lavanda
+          </a>
+
         </div>
 
         <div class="hero-facts">
-          <span><b>Lavanda</b><small>Aroma protagonista</small></span>
-          <span><b>Removible</b><small>Saquito aromático</small></span>
-          <span><b>Digital</b><small>Guías y rutinas</small></span>
+
+          <span>
+            <b>Lavanda</b>
+            <small>Aroma protagonista</small>
+          </span>
+
+          <span>
+            <b>Removible</b>
+            <small>Saquito aromático</small>
+          </span>
+
+          <span>
+            <b>Digital</b>
+            <small>Guías y rutinas</small>
+          </span>
+
         </div>
+
       </div>
 
       <div class="hero-visual">
+
         <div class="halo"></div>
-        <img class="hero-product" src="https://i.ibb.co/bRN6CCVf/image.png" alt="Numi de Start Dreams">
-        <span class="float-chip chip-1">🌿 Lavanda</span>
-        <span class="float-chip chip-2">☾ Rutina suave</span>
-        <span class="float-chip chip-3">♡ Compañía</span>
+
+        <img
+          class="hero-product"
+          src="https://i.ibb.co/bRN6CCVf/image.png"
+          alt="Numi de Start Dreams">
+
+        <span class="float-chip chip-1">
+          🌿 Lavanda
+        </span>
+
+        <span class="float-chip chip-2">
+          ☾ Rutina suave
+        </span>
+
+        <span class="float-chip chip-3">
+          ♡ Compañía
+        </span>
+
       </div>
+
     </section>
 
-    <!-- MUSICA DE FONDO, separada de Spotify -->
+
+    <!-- =========================
+         MÚSICA DE AMBIENTE
+         ========================= -->
+
     <section class="ambient-player">
+
       <div>
+
         <span class="music-icon">♪</span>
+
         <div>
           <strong>Música de ambiente</strong>
-          <p>Para recorrer la página con una atmósfera más tranquila.</p>
+          <p>
+            Para recorrer la página con una atmósfera más tranquila.
+          </p>
         </div>
+
       </div>
+
       <audio controls loop preload="metadata">
         <source src="musica-relajante.mp3" type="audio/mpeg">
         Tu navegador no permite reproducir audio.
       </audio>
+
     </section>
 
-    <!-- BANNER -->
-    <section class="brand-banner" aria-label="Banner Start Dreams">
-      <img src="https://plain-enam-prod-public.komododecks.com/202609/04/6raAbiQ7PBieGuxdibeU/image.png" alt="Banner Start Dreams">
+
+    <!-- =========================
+         BANNER
+         ========================= -->
+
+    <section
+      class="brand-banner"
+      aria-label="Banner Start Dreams">
+
+      <img
+        src="https://plain-enam-prod-public.komododecks.com/202609/04/6raAbiQ7PBieGuxdibeU/image.png"
+        alt="Banner Start Dreams">
+
     </section>
 
-    <!-- NOSOTROS -->
+
+    <!-- =========================
+         NOSOTROS
+         ========================= -->
+
     <section class="section about" id="nosotros">
+
       <div class="section-head">
-        <span class="eyebrow">NUESTRO EMPRENDIMIENTO</span>
-        <h2>¿Cómo podríamos ayudar a que los <em>jóvenes peruanos mejoren su calidad de sueño?</em></h2>
+
+        <span class="eyebrow">
+          NUESTRO EMPRENDIMIENTO
+        </span>
+
+        <h2>
+          ¿Cómo podríamos ayudar a que los
+          <em>jóvenes peruanos mejoren su calidad de sueño?</em>
+        </h2>
+
         <p>
-          Esa es la pregunta que inspira a Start Dreams: convertir el final del día en una experiencia
+          Esa es la pregunta que inspira a Start Dreams:
+          convertir el final del día en una experiencia
           más tranquila, cercana y fácil de incorporar a la rutina.
         </p>
+
       </div>
 
       <div class="about-grid">
+
         <div class="about-story">
+
           <p class="lead">
             Dormir bien es parte del desarrollo, el aprendizaje y el bienestar emocional.
             El Ministerio de Salud del Perú recomienda que los adolescentes duerman entre
@@ -120,304 +251,366 @@
           </p>
 
           <div class="evidence-strip">
+
             <article>
               <strong>60%</strong>
-              <span>de adolescentes peruanos de 12 a 19 años duerme menos de 9 horas al día, según datos nacionales citados en un estudio peruano.</span>
+              <span>
+                de adolescentes peruanos de 12 a 19 años duerme
+                menos de 9 horas al día, según datos nacionales
+                citados en un estudio peruano.
+              </span>
             </article>
+
             <article>
               <strong>84.8%</strong>
-              <span>presentó problemas de sueño en un estudio realizado con 217 escolares adolescentes de Barranca.</span>
+              <span>
+                presentó problemas de sueño en un estudio realizado
+                con 217 escolares adolescentes de Barranca.
+              </span>
             </article>
+
             <article>
               <strong>49.7%</strong>
-              <span>presentó somnolencia diurna en esa misma muestra de estudiantes.</span>
+              <span>
+                presentó somnolencia diurna en esa misma muestra
+                de estudiantes.
+              </span>
             </article>
+
           </div>
 
           <p class="evidence-source">
-            Fuentes: Ministerio de Salud del Perú (2026) y estudio publicado en
-            <em>Anales de la Facultad de Medicina</em> sobre adolescentes escolares de Barranca.
+            Fuentes: Ministerio de Salud del Perú (2026) y estudio
+            publicado en <em>Anales de la Facultad de Medicina</em>
+            sobre adolescentes escolares de Barranca.
           </p>
 
           <div class="about-cards">
+
             <article>
               <span>01</span>
               <h3>La problemática</h3>
-              <p>El estrés académico, el uso nocturno de pantallas y los horarios irregulares pueden reducir el tiempo y la calidad del descanso.</p>
+              <p>
+                El estrés académico, el uso nocturno de pantallas
+                y los horarios irregulares pueden reducir el tiempo
+                y la calidad del descanso.
+              </p>
             </article>
 
             <article>
               <span>02</span>
               <h3>¿A quién va dirigido?</h3>
-              <p>A niños y adolescentes, y a familias que quieren construir una rutina nocturna más agradable y constante.</p>
+              <p>
+                A niños y adolescentes, y a familias que quieren
+                construir una rutina nocturna más agradable y constante.
+              </p>
             </article>
 
             <article>
               <span>03</span>
               <h3>Nuestra propuesta</h3>
-              <p>Un compañero sensorial llamado Numi, con textura suave, lavanda y una experiencia digital con guías, rutinas y música.</p>
+              <p>
+                Un compañero sensorial llamado Numi, con textura suave,
+                lavanda y una experiencia digital con guías, rutinas y música.
+              </p>
             </article>
+
           </div>
+
         </div>
 
         <figure class="poster-card">
-          <img src="https://plain-enam-prod-public.komododecks.com/202609/04/qWwpbjFNyqtK67ZBrbQn/image.png" alt="Público objetivo de Start Dreams">
-          <figcaption>Start Dreams conecta una necesidad real con una propuesta cercana, sensorial y fácil de integrar en casa.</figcaption>
+
+          <img
+            src="https://plain-enam-prod-public.komododecks.com/202609/04/qWwpbjFNyqtK67ZBrbQn/image.png"
+            alt="Público objetivo de Start Dreams">
+
+          <figcaption>
+            Start Dreams conecta una necesidad real con una propuesta
+            cercana, sensorial y fácil de integrar en casa.
+          </figcaption>
+
         </figure>
+
       </div>
+
     </section>
 
-    <!-- NUMIS -->
+
+    <!-- =========================
+         NUMIS
+         ========================= -->
+
     <section class="section numis" id="numis">
+
       <div class="section-head center">
-        <span class="eyebrow">CONOCE A LOS NUMIS</span>
-        <h2>No es solo un peluche. Es <em>tu Numi.</em></h2>
+
+        <span class="eyebrow">
+          CONOCE A LOS NUMIS
+        </span>
+
+        <h2>
+          No es solo un peluche. Es
+          <em>tu Numi.</em>
+        </h2>
+
         <p>
-          Cada Numi une tres cosas en una sola experiencia: una presencia suave,
-          el aroma de la lavanda y una rutina digital que acompaña el final del día.
+          Cada Numi une tres cosas en una sola experiencia:
+          una presencia suave, el aroma de la lavanda y una rutina
+          digital que acompaña el final del día.
         </p>
+
       </div>
 
       <div class="numi-showcase numi-showcase-refined">
-        <a class="click-poster numi-main-photo" href="#poster-ampliado" aria-label="Abrir ficha del producto en grande">
-          <img src="https://plain-enam-prod-public.komododecks.com/202609/04/5JLDgsqG1gp2wb7KYkLu/image.png" alt="Ficha completa del Numi de Start Dreams">
-          <span class="zoom-badge">⌕ Presiona para ampliar</span>
+
+        <a
+          class="click-poster numi-main-photo"
+          href="#poster-ampliado"
+          aria-label="Abrir ficha del producto en grande">
+
+          <img
+            src="https://plain-enam-prod-public.komododecks.com/202609/04/5JLDgsqG1gp2wb7KYkLu/image.png"
+            alt="Ficha completa del Numi de Start Dreams">
+
+          <span class="zoom-badge">
+            ⌕ Presiona para ampliar
+          </span>
+
         </a>
 
         <div class="numi-copy">
-          <span class="numi-label">NUMI · COMPAÑERO SENSORIAL</span>
+
+          <span class="numi-label">
+            NUMI · COMPAÑERO SENSORIAL
+          </span>
 
           <div class="numi-point">
+
             <span>🌿</span>
+
             <div>
               <h3>Lavanda que acompaña</h3>
-              <p>Su saquito aromático removible convierte el aroma en una señal suave y reconocible dentro de la rutina.</p>
+              <p>
+                Su saquito aromático removible convierte el aroma
+                en una señal suave y reconocible dentro de la rutina.
+              </p>
             </div>
+
           </div>
 
           <div class="numi-point">
+
             <span>🧸</span>
+
             <div>
               <h3>Diseñado para sentirse cercano</h3>
-              <p>La textura, la forma y la experiencia visual buscan que el Numi se sienta como un compañero del momento de descanso.</p>
+              <p>
+                La textura, la forma y la experiencia visual buscan
+                que el Numi se sienta como un compañero del momento
+                de descanso.
+              </p>
             </div>
+
           </div>
 
           <div class="numi-point">
+
             <span>☾</span>
+
             <div>
               <h3>Una rutina, no solo un objeto</h3>
-              <p>La web reúne guías de bienestar, pequeñas rutinas y la playlist de Start Dreams para acompañar el cierre del día.</p>
+              <p>
+                La web reúne guías de bienestar, pequeñas rutinas
+                y la playlist de Start Dreams para acompañar el cierre del día.
+              </p>
             </div>
+
           </div>
 
           <div class="numi-quote">
+
             <span class="quote-open">“</span>
-            <p>Un pequeño compañero para recordar que descansar también merece su propio momento.</p>
+
+            <p>
+              Un pequeño compañero para recordar que descansar
+              también merece su propio momento.
+            </p>
+
             <span class="quote-close">”</span>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
 
-    <!-- MODAL CSS -->
+
+    <!-- MODAL NUMI -->
+
     <div class="lightbox" id="poster-ampliado">
-      <a class="lightbox-backdrop" href="#numis" aria-label="Cerrar"></a>
+
+      <a
+        class="lightbox-backdrop"
+        href="#numis"
+        aria-label="Cerrar">
+      </a>
+
       <div class="lightbox-content">
-        <a class="lightbox-close" href="#numis" aria-label="Cerrar imagen">×</a>
-        <img src="https://plain-enam-prod-public.komododecks.com/202609/04/5JLDgsqG1gp2wb7KYkLu/image.png" alt="Ficha ampliada del producto Numi">
-        <p>Ficha del producto · Start Dreams</p>
+
+        <a
+          class="lightbox-close"
+          href="#numis"
+          aria-label="Cerrar imagen">
+          ×
+        </a>
+
+        <img
+          src="https://plain-enam-prod-public.komododecks.com/202609/04/5JLDgsqG1gp2wb7KYkLu/image.png"
+          alt="Ficha ampliada del producto Numi">
+
+        <p>
+          Ficha del producto · Start Dreams
+        </p>
+
       </div>
+
     </div>
 
-    <!-- LAVANDA CIENTIFICA -->
+
+    <!-- =========================
+         LAVANDA
+         ========================= -->
+
     <section class="lavender-lab" id="lavanda">
+
       <div class="lavender-copy">
-        <span class="eyebrow light">EL CORAZÓN AROMÁTICO DEL NUMI</span>
-        <h2>Lavanda: aroma, percepción y <em>rutina de calma</em></h2>
+
+        <span class="eyebrow light">
+          EL CORAZÓN AROMÁTICO DEL NUMI
+        </span>
+
+        <h2>
+          Lavanda: aroma, percepción y
+          <em>rutina de calma</em>
+        </h2>
+
         <p class="lavender-intro">
-          La lavanda contiene compuestos aromáticos volátiles, entre ellos <strong>linalool</strong>
-          y <strong>acetato de linalilo</strong>. Cuando percibimos un aroma, las moléculas llegan
-          al sistema olfativo, donde son detectadas por receptores que envían señales al cerebro.
+          La lavanda contiene compuestos aromáticos volátiles,
+          entre ellos <strong>linalool</strong> y
+          <strong>acetato de linalilo</strong>.
+          Cuando percibimos un aroma, las moléculas llegan al
+          sistema olfativo, donde son detectadas por receptores
+          que envían señales al cerebro.
         </p>
 
         <div class="science-grid">
+
           <article>
             <span>01</span>
             <h3>Percepción olfativa</h3>
-            <p>Las moléculas aromáticas entran por la nariz y activan receptores especializados del epitelio olfativo.</p>
+            <p>
+              Las moléculas aromáticas entran por la nariz
+              y activan receptores especializados del epitelio olfativo.
+            </p>
           </article>
+
           <article>
             <span>02</span>
             <h3>Señal cerebral</h3>
-            <p>La información del olor se procesa en circuitos relacionados con percepción, memoria y emoción.</p>
+            <p>
+              La información del olor se procesa en circuitos
+              relacionados con percepción, memoria y emoción.
+            </p>
           </article>
+
           <article>
             <span>03</span>
             <h3>Asociación con la rutina</h3>
-            <p>Repetir un mismo aroma dentro de una rutina tranquila puede ayudar a convertirlo en una señal familiar de “momento de bajar el ritmo”.</p>
+            <p>
+              Repetir un mismo aroma dentro de una rutina tranquila
+              puede ayudar a convertirlo en una señal familiar
+              de “momento de bajar el ritmo”.
+            </p>
           </article>
+
         </div>
 
         <div class="science-note">
-          <strong>Importante:</strong> el Numi es un producto de acompañamiento y bienestar.
+          <strong>Importante:</strong>
+          el Numi es un producto de acompañamiento y bienestar.
           No diagnostica, trata ni reemplaza atención médica o psicológica.
         </div>
+
       </div>
 
       <div class="lavender-media">
-        <video controls muted loop playsinline poster="https://i.ibb.co/C51jNnf2/Chat-GPT-Image-4-sept-2026-12-14-33-a-m.png">
-          <source src="https://v1.pinimg.com/videos/mc/720p/48/cc/11/48cc11f334a4b9cfb7b8cb7466470d0f.mp4" type="video/mp4">
+
+        <video
+          controls
+          muted
+          loop
+          playsinline
+          poster="https://i.ibb.co/C51jNnf2/Chat-GPT-Image-4-sept-2026-12-14-33-a-m.png">
+
+          <source
+            src="https://v1.pinimg.com/videos/mc/720p/48/cc/11/48cc11f334a4b9cfb7b8cb7466470d0f.mp4"
+            type="video/mp4">
+
           Tu navegador no permite reproducir este video.
+
         </video>
+
         <div class="media-caption">
           <span>✦</span>
-          <p>La lavanda es el elemento aromático principal de nuestra propuesta.</p>
+          <p>
+            La lavanda es el elemento aromático principal de nuestra propuesta.
+          </p>
         </div>
+
       </div>
+
     </section>
 
-    <!-- COMO FUNCIONA -->
+
+    <!-- =========================
+         CÓMO FUNCIONA
+         ========================= -->
+
     <section class="section ritual">
+
       <div class="section-head center">
-        <span class="eyebrow">UN PEQUEÑO RITUAL</span>
-        <h2>Cuatro pasos para bajar el ritmo</h2>
+
+        <span class="eyebrow">
+          UN PEQUEÑO RITUAL
+        </span>
+
+        <h2>
+          Cuatro pasos para bajar el ritmo
+        </h2>
+
       </div>
 
       <div class="steps">
-        <article><b>01</b><span>☁</span><h3>Prepara el espacio</h3><p>Baja la luz y deja las pantallas a un lado.</p></article>
-        <article><b>02</b><span>🧸</span><h3>Toma tu Numi</h3><p>Hazlo parte de tu señal personal de descanso.</p></article>
-        <article><b>03</b><span>🌿</span><h3>Respira con calma</h3><p>Deja que el aroma acompañe el momento sin forzar nada.</p></article>
-        <article><b>04</b><span>☾</span><h3>Repite la rutina</h3><p>La constancia hace que el ritual se vuelva familiar.</p></article>
-      </div>
-    </section>
 
-    <!-- RUTINAS -->
-    <section class="section routines" id="rutinas">
-      <div class="section-head">
-        <span class="eyebrow">RUTINAS DE BIENESTAR</span>
-        <h2>Elige una forma suave de cerrar tu día</h2>
-      </div>
-
-      <div class="routine-grid">
-        <article class="routine-card lavender-card">
-          <div class="routine-top"><span>5 min</span><b>☾</b></div>
-          <h3>Luna suave</h3>
-          <ol>
-            <li>Aléjate de la pantalla.</li>
-            <li>Abraza tu Numi.</li>
-            <li>Haz cinco respiraciones lentas.</li>
-            <li>Piensa en algo bueno del día.</li>
-          </ol>
+        <article>
+          <b>01</b>
+          <span>☁</span>
+          <h3>Prepara el espacio</h3>
+          <p>
+            Baja la luz y deja las pantallas a un lado.
+          </p>
         </article>
 
-        <article class="routine-card sage-card">
-          <div class="routine-top"><span>8 min</span><b>🌿</b></div>
-          <h3>Mente tranquila</h3>
-          <ol>
-            <li>Baja la luz de tu habitación.</li>
-            <li>Coloca música suave.</li>
-            <li>Relaja hombros y cuello.</li>
-            <li>Respira más lento al exhalar.</li>
-          </ol>
+        <article>
+          <b>02</b>
+          <span>🧸</span>
+          <h3>Toma tu Numi</h3>
+          <p>
+            Hazlo parte de tu señal personal de descanso.
+          </p>
         </article>
 
-        <article class="routine-card sky-card">
-          <div class="routine-top"><span>10 min</span><b>✦</b></div>
-          <h3>Cierre del día</h3>
-          <ol>
-            <li>Anota lo pendiente.</li>
-            <li>Deja listo solo lo necesario.</li>
-            <li>Guarda tus materiales.</li>
-            <li>Escucha la playlist con tu Numi.</li>
-          </ol>
-        </article>
-      </div>
-    </section>
-
-    <!-- PLAYLIST -->
-    <section class="playlist-section" id="playlist">
-      <div class="playlist-copy">
-        <span class="eyebrow light">PLAYLIST START DREAMS</span>
-        <h2>Sonidos para acompañar el descanso</h2>
-        <p>Esta es nuestra playlist de Spotify. Puedes usarla mientras lees, ordenas tu espacio o haces una de las rutinas de Start Dreams.</p>
-        <div class="playlist-pills">
-          <span>☁ suave</span>
-          <span>☾ tranquila</span>
-          <span>✦ sin prisas</span>
-        </div>
-      </div>
-
-      <div class="spotify-frame">
-        <iframe
-          style="border-radius:24px"
-          src="https://open.spotify.com/embed/playlist/3Q7fhTFh9pZ4s2U9XyW2Vv?utm_source=generator"
-          width="100%"
-          height="352"
-          frameborder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy">
-        </iframe>
-      </div>
-    </section>
-
-    <!-- PEDIDOS -->
-    <section class="order" id="pedidos">
-      <div class="order-card">
-        <div>
-          <span class="eyebrow light">¿QUIERES CONOCER A TU NUMI?</span>
-          <h2>Start Dreams puede acompañar tu próxima noche tranquila.</h2>
-          <p>Consulta disponibilidad o haz tu pedido directamente por WhatsApp.</p>
-          <a class="btn btn-white" href="https://wa.me/51919672354?text=Hola%20Start%20Dreams%20%F0%9F%92%9C%20Quiero%20pedir%20un%20Numi.%20%C2%BFMe%20dan%20m%C3%A1s%20informaci%C3%B3n%3F" target="_blank" rel="noopener">
-            📲 919 672 354
-          </a>
-        </div>
-        <img src="https://i.ibb.co/9H37MHrV/f2eb44ec-25fc-4fda-8fec-3febfeba10ba.png" alt="Start Dreams">
-      </div>
-    </section>
-  
-<section class="section feedback-section" id="opinion">
-  <div class="feedback-card">
-    <div class="feedback-star" aria-hidden="true">✦</div>
-
-    <div class="feedback-copy">
-      <span class="eyebrow">TU VOZ TAMBIÉN CUENTA</span>
-      <h2>Ayúdanos a construir el próximo <em>Numi.</em></h2>
-      <p>
-        StartDreams sigue creciendo y queremos hacerlo escuchándote.
-        Cuéntanos qué te gustó, qué mejorarías o qué te gustaría encontrar
-        en un futuro Numi.
-      </p>
-    </div>
-
-    <a class="feedback-button"
-       href="https://wa.me/51919672354?text=Hola%20StartDreams%20%F0%9F%92%9C%20Quiero%20dejarles%20una%20opini%C3%B3n%20sobre%20los%20Numis%3A%20"
-       target="_blank" rel="noopener">
-      Dejar mi opinión <span>→</span>
-    </a>
-  </div>
-</section>
-
-</main>
-
-  <footer class="footer">
-    <a href="#inicio" class="footer-logo" aria-label="Volver al inicio">
-      <img src="https://i.ibb.co/9H37MHrV/f2eb44ec-25fc-4fda-8fec-3febfeba10ba.png" alt="Logo Start Dreams">
-    </a>
-    <p>Numis · Compañeros sensoriales para descansar mejor.</p>
-    <div class="footer-links">
-      <a href="#nosotros">Nosotros</a>
-      <a href="#lavanda">Lavanda</a>
-      <a href="#rutinas">Rutinas</a>
-      <a href="#pedidos">Pedidos</a>
-    </div>
-    <small>© 2026 Start Dreams · Proyecto de emprendimiento.</small>
-  </footer>
-
-  <a class="whatsapp" href="https://wa.me/51919672354?text=Hola%20Start%20Dreams%2C%20quiero%20informaci%C3%B3n%20sobre%20los%20Numis." target="_blank" rel="noopener">
-    <span>💬</span>
-    <b>Pedidos</b>
-  </a>
-</body>
-</html>
+        <article>
